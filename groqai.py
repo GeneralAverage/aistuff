@@ -1,5 +1,5 @@
 from groq import Groq
-
+from pynput.keyboard import Key, Controller
 apikey = "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"
 
 client = Groq(api_key=apikey)
@@ -13,7 +13,7 @@ while True:
     messages=[
         {
             "role": "system",
-            "content": "Talk like a rival. Be somewhat condescending, but still friends with the user.",
+            "content": "Talk like a rival.",
         },
         {
             "role": "assistant",
