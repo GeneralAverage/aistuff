@@ -55,7 +55,7 @@ def wait_for_key(target_key):
 
 
 
-apikey = "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"
+apikey = ""
 
 client = Groq(api_key=apikey)
 
